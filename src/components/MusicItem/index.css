@@ -1,0 +1,110 @@
+.app-list {
+  margin-top: 10px;
+}
+.play-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.image {
+  height: 85px;
+  width: 150px;
+  margin-right: 20px;
+}
+.genre-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.genre {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #3b82f6;
+}
+.delete-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.duration {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  margin-right: 15px;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.del {
+  color: #ffffff;
+  height: 22px;
+  margin-right: 20px;
+}
+.music-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.track-info-container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.music-track-image {
+  height: 90px;
+  width: 140px;
+  margin-right: 20px;
+}
+
+/* export const NameGenreContainer = styled.div`` */
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.duration-delete-container {
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+}
